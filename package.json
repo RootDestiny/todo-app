@@ -1,0 +1,23 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "First pet project with HTML/CSS/JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RootDestiny/todo-app.git"
+  },
+  "keywords": [
+    "TODO",
+    "JS"
+  ],
+  "author": "Andrew <andrushanevermore@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RootDestiny/todo-app/issues"
+  },
+  "homepage": "https://github.com/RootDestiny/todo-app#readme"
+}
