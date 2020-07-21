@@ -1,3 +1,86 @@
-body {
-    background: aquamarine;
+
+html {
+    font-family: sans-serif;
+    color: #585555;
 }
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    height: 50px;
+    width: 400px;
+}
+
+.mainItem, .addButton, .newTodo, .sideItem {
+    flex-grow: 1;
+}
+
+.mainItem, .addButton, .newTodo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 3;
+}
+
+.mainItem {
+    height: 50px;
+}
+
+.sideItem{
+    flex-basis: 50px;
+    flex-shrink: 0;
+    flex-direction: row;
+
+    display: flex;
+}
+
+.addButton {
+    flex: 0 1 auto;
+}
+
+.newTodo {
+    flex: 0 1 80%;
+}
+
+
+input {
+    width: 100%;
+}
+
+input:focus,
+input:hover {
+    outline: 0;
+}
+
+button:hover {
+    transform: perspective(30px);
+
+}
+
+button:active {
+    border: 2px solid #585555;
+    background: #585555;
+    color: white;
+
+}
+input,
+button {
+    outline: 0;
+    display: inline-block;
+    -webkit-appearance: none;
+    padding: 7px 20px;
+    font-size: 1rem;
+    border: 2px solid #585555;
+    border-radius: 4px;
+}
+
+button {
+    cursor: pointer;
+    background: white;
+    color: #585555;
+    border: 2px solid #585555;
+    margin: 0 .5rem;
+}
+
